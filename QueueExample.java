@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-import java.util.Queue; // 雖然我們不直接用 JCF 的 Queue 類，但 LinkedList 實現了它
+import java.util.Queue; // 雖然不直接用 JCF 的 Queue 類，但 LinkedList 實現了它
 
 /**
  * 實現一個可以置入任意類別物件的 Queue。
@@ -28,7 +28,7 @@ class MyQueue<T> {
      * 移除並返回隊列頭部的元素 (Dequeue/出隊)。
      */
     public T dequeue() {
-        // 由於您原先的程式碼是 return queue.first(); 
+        // 由於原先的程式碼是 return queue.first(); 
         // 這裡需要修改為移除並返回頭部元素。
         // removeFirst() 會移除並返回隊列頭部的元素。
         return queue.removeFirst(); 
